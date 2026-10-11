@@ -1,0 +1,138 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "employeeNo": "EMP001",
+      "name": "张三",
+      "department": "研发部",
+      "position": "前端工程师",
+      "phone": "13800138001",
+      "status": "在职"
+    },
+    {
+      "id": "2",
+      "employeeNo": "EMP002",
+      "name": "李四",
+      "department": "产品部",
+      "position": "产品经理",
+      "phone": "13800138002",
+      "status": "在职"
+    },
+    {
+      "id": "3",
+      "employeeNo": "EMP003",
+      "name": "王五",
+      "department": "研发部",
+      "position": "后端工程师",
+      "phone": "13800138003",
+      "status": "离职"
+    },
+    {
+      "name": "李想",
+      "department": "开发部",
+      "position": "工程师",
+      "phone": "1111",
+      "status": "在职",
+      "employeeNo": "EMP004",
+      "id": "i8-oUtqAp7s"
+    },
+    {
+      "name": "赵六",
+      "department": "研发部",
+      "position": "前端工程师",
+      "phone": "13800138006",
+      "status": "在职",
+      "employeeNo": "EMP005",
+      "id": "Ym4dirbJ-t0"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "projectNo": "PRJ001",
+      "name": "FlowOps 协同管理平台",
+      "managerId": "1",
+      "managerName": "张三",
+      "status": "进行中",
+      "progress": 65,
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "description": "企业协同管理平台前端主流程建设，聚焦员工与项目协同管理。"
+    },
+    {
+      "id": "3",
+      "projectNo": "PRJ003",
+      "name": "数据看板升级",
+      "managerId": "Ym4dirbJ-t0",
+      "managerName": "赵六",
+      "status": "已完成",
+      "progress": 100,
+      "startDate": "2026-08-10",
+      "endDate": "2026-09-30",
+      "description": "运营数据看板重构，提升关键指标展示与筛选体验。"
+    },
+    {
+      "name": "自动化机械平台",
+      "managerId": "i8-oUtqAp7s",
+      "managerName": "李想",
+      "status": "规划中",
+      "progress": 1,
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-21",
+      "description": "就是简单测试一下",
+      "projectNo": "PRJ004",
+      "id": "PPBEJbXegyc"
+    },
+    {
+      "name": "FlowOps任务中心",
+      "managerId": "1",
+      "managerName": "张三",
+      "status": "规划中",
+      "progress": 30,
+      "startDate": "2026-10-11",
+      "endDate": "2026-12-31",
+      "description": "用于测试项目管理模块",
+      "projectNo": "PRJ008",
+      "id": "Q58lfTtmbfY"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "taskNo": "TASK001",
+      "title": "需求评审",
+      "projectId": "1",
+      "assigneeId": "1",
+      "status": "待开始",
+      "priority": "高",
+      "startDate": "2026-10-11",
+      "dueDate": "2026-10-15",
+      "description": "整理项目需求与交付节点，召开需求评审会议。"
+    },
+    {
+      "id": "task-2",
+      "taskNo": "TASK002",
+      "title": "接口联调",
+      "projectId": "3",
+      "assigneeId": "2",
+      "status": "进行中",
+      "priority": "中",
+      "startDate": "2026-10-12",
+      "dueDate": "2026-10-20",
+      "description": "完成数据看板与后端接口对接，验证字段及分页行为。"
+    },
+    {
+      "id": "task-3",
+      "taskNo": "TASK003",
+      "title": "测试回归",
+      "projectId": "Q58lfTtmbfY",
+      "assigneeId": "Ym4dirbJ-t0",
+      "status": "已完成",
+      "priority": "低",
+      "startDate": "2026-10-08",
+      "dueDate": "2026-10-10",
+      "description": "进行项目基础功能回归测试并记录缺陷。"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
